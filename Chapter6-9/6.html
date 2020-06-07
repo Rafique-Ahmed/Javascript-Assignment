@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Chapter 6-9.6</title>
+    <script>
+        var sub1=prompt("Enter first subject");
+        var sub2=prompt("Enter second subject");
+        var sub3=prompt("Enter third subject");
+        var mark1=parseInt(prompt("Enter marks of first subjet"));
+        var mark2=parseInt(prompt("Enter marks of second subjet"));
+        var mark3=parseInt(prompt("Enter marks of third subjet"));
+        var per_sub_marks=100;
+        var total=300;
+        var persub1=mark1*100/per_sub_marks;
+        var persub2=mark2*100/per_sub_marks;
+        var persub3=mark3*100/per_sub_marks;
+        var percentage=(mark1+mark2+mark3)*100/300;
+        document.writeln("<h1><b>Subject Total marks obtained Marks Percentage</b></h1><br>");
+        document.writeln(""+sub1+"&nbsp;&nbsp;"+per_sub_marks+"&nbsp;&nbsp;"+mark1+"&nbsp;&nbsp"+persub1+"%<br>");
+        document.writeln(""+sub2+"&nbsp;&nbsp"+per_sub_marks+" &nbsp;&nbsp"+mark2+" &nbsp;&nbsp"+persub2+"%<br>");
+        document.writeln(""+sub3+" &nbsp;&nbsp"+per_sub_marks+"&nbsp;&nbsp"+mark3+"&nbsp;&nbsp "+persub3+"%<br>");
+        document.writeln("&nbsp;&nbsp"+total+" &nbsp;&nbsp"+(mark1+mark2+mark3)+" &nbsp;&nbsp"+percentage+"</b>");
+        
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
