@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Chapter 9-11.6</title>
+    <script>
+
+        var mark1=parseInt(prompt("Enter marks of first subjet"));
+        var mark2=parseInt(prompt("Enter marks of second subjet"));
+        var mark3=parseInt(prompt("Enter marks of third subjet"));
+        var Obtained=mark1+mark2+mark3;
+        var total=300;
+        
+        var percentage=(mark1+mark2+mark3)*100/300;
+        var grade= "";
+        var remarks="";
+        if(percentage>=80){
+            grade="A1";
+            remarks="Excellent";
+        }
+        else if(percentage>=70){
+            grade="A";
+            remarks="Good"
+        }
+        else if(percentage>=60){
+            grade="B";
+            remarks="You need improve";
+        }
+        else if(percentage<=60){
+            grade="Fial";
+            remarks="Sorry"
+        }
+        document.writeln("<h1><b>Marks Sheet</b></h1><br>");
+        document.writeln("Total Marks: "+total);
+        document.writeln("<br>Marks Obtained: "+Obtained);
+        document.writeln("<br>Percentage : "+percentage);
+        document.writeln("%<br>Grade :"+grade);
+        document.writeln("<br>Remarks: "+remarks);     
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
