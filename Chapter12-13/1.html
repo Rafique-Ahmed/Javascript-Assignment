@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>chapter 12-13.1</title>
+    <script>
+        var str =prompt("Enter any character"); 
+        document.write(str.charAt(0));
+        if(str.charAt(0)>=String.fromCharCode(65) && str.charAt(0)<=String.fromCharCode(90)){
+            document.writeln(String.fromCharCode(str)+"This is upper case letter");
+        }
+        else if(str.charAt(0)>=String.fromCharCode(97) && str.charAt(0)<=String.fromCharCode(122) ){
+            document.writeln("This is lower case letter");
+        }
+        else if(str.charAt(0)>=String.fromCharCode(48)&& str.charAt(0)<=String.fromCharCode(71) ){
+            document.writeln(" This is number ");
+        }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
