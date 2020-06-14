@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Chapter 17-20.7</title>
+    <script>
+        var A = ["cake", "apple pie", "cookie", "chips", "patties"];
+        var saerch=prompt("Welcome to abc bakery.What do you want to order sir/ma'am?");
+        var temp=0;
+        for(i=0;i<=A.length-1;i++){
+            if(A[i]==saerch){
+                document.write("Cookie is available at index "+i+"is your bakery")
+                ++temp;
+            }
+        }
+      if(temp<1){
+            document.write("We are sorry. pastry is<b> not avaiable</b> in our bakery ");
+        }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
